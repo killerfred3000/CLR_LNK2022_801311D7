@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Managed">
+      <UniqueIdentifier>{09720f0a-ab3d-4357-ba3e-d2ba453acf62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Unmanaged">
+      <UniqueIdentifier>{6b63c1f4-75e5-4ccd-ae31-2d609f1a5beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managed">
+      <UniqueIdentifier>{f416d14d-fb2c-4dbd-b775-6f1b93a04f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Unmanaged">
+      <UniqueIdentifier>{dff1b1eb-b11b-4250-a006-4359641bb1d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnmanagedClass.h">
+      <Filter>Header Files\Unmanaged</Filter>
+    </ClInclude>
+    <ClInclude Include="Test2.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Templates.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Managed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test2.cpp">
+      <Filter>Source Files\Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates.cpp">
+      <Filter>Source Files\Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Managed</Filter>
+    </ClCompile>
+    <ClCompile Include="UnmanagedClass.cpp">
+      <Filter>Source Files\Unmanaged</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
